@@ -47,6 +47,7 @@ body{
 input[type="email"]{
     background-color: rgb(15, 17, 23);
     border-radius: 5px;
+    border: none;
     padding: 10px;
 }
 .getstarted{
@@ -55,6 +56,7 @@ input[type="email"]{
     color: white;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
 }
 
 .maincontainer{
@@ -128,3 +130,19 @@ input[type="email"]{
     margin-right: 100px;
     margin-top: -60px;
 }
+.signin{
+    padding: 6px 12px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.lang{
+        padding: 6px 12px;
+        background-color: rgb(15, 17, 23);
+        color: white;
+        border: none;
+        align-items: center;
+        border-radius: 5px;
+        }
