@@ -109,4 +109,22 @@ input[type="email"]{
 .footer{
     margin: 100px;
     margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    line-height: 30px;
+}
+.call{
+    grid-column: 1/5;
+    line-height: 80px;
+}
+.item{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.end{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -60px;
 }
