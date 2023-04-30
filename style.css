@@ -77,3 +77,36 @@ input[type="email"]{
     width: 100%;
     border-bottom: 1px solid gray;
 }
+
+.qns{
+    margin: 100px;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.qns >*{
+    background-color: rgb(19,33,68);
+}
+.qns >h1{
+    background-color: rgb(2, 0, 10);
+}
+.what{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid rgba(3, 0, 12, 0.7);
+}
+.whttxt{
+    padding: 8px;
+}
+.subs{
+    margin-top: -80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer{
+    margin: 100px;
+    margin-top: 200px;
+}
